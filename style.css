@@ -1,0 +1,100 @@
+
+*{
+	margin:0;
+	padding: 0;
+}
+body{
+	font-family: Arial;
+	display: flex;
+	flex-direction: column;
+	height: 97vh;
+}
+ /* START MENU */
+.start{
+	background-color: #CBDFB8;
+	height: 100%;
+}
+.start form{
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.start form *{margin-bottom: 20px;}
+
+.start button{
+	font-size: 20px;
+	width: 100px;
+	height: 40px;
+}
+
+ /* GAME */
+#canvas{
+	border: 1px solid #000;
+	width: 100%;
+	height: 60%;
+	cursor: none;
+}
+.game {
+	height: 100%;
+	display: none;
+}
+
+.menu{
+	display: flex;
+	justify-content: space-between;
+	height: 30%
+}
+
+.score{
+	display: flex;
+	align-items: center;
+}
+.score input{
+	padding-left: 10px;
+	border: none;
+}
+.score input:focus{
+	outline: none;
+}
+.stamina{
+	width: 300px;
+	height: 50px;
+	border: 2px solid black
+}
+#progress_bar{
+	background-color: #62A91E;
+	height: 100%;
+}
+ /* END MENU */
+
+.end{
+	display: none;
+	background-color: #B06565;
+	height: 100%;
+	color: #fff;
+}
+.end_menu{
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.end_menu *{
+	margin-bottom: 10px;
+}
+.end_menu form{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.end_menu form input{
+	color: #fff;
+	background-color: #00000000;
+	border: none;
+	cursor: default;
+	outline:none;
+}
